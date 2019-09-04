@@ -9,8 +9,7 @@ int main(){
 
     std::cout << "Amazing, that's my favorite number too! " << std::endl;
     std::cout << "No, really! ";
-    std::cout << myFavoriteNumber;
-    std::cout << " is my favorite number!" << std::endl;
+    std::cout << myFavoriteNumber << " is my favorite number!" << std::endl;
     system("pause");
     return 0;
 }
