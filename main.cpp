@@ -1,15 +1,15 @@
 #include <iostream>
-#include <cstdio>
 
+using namespace std;
 int main(){
     int myFavoriteNumber;
-    std::cout << "Enter your favorite number" << std::endl;
+    cout << "Enter your favorite number" << endl;
 
-    std::cin >> myFavoriteNumber;
+    cin >> myFavoriteNumber;
 
-    std::cout << "Amazing, that's my favorite number too! " << std::endl;
-    std::cout << "No, really! ";
-    std::cout << myFavoriteNumber << " is my favorite number!" << std::endl;
+   cout << "Amazing, that's my favorite number too! " << endl;
+    cout << "No, really! ";
+    cout << myFavoriteNumber << " is my favorite number!" << endl;
     system("pause");
     return 0;
 }
